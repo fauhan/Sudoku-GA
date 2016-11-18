@@ -1,0 +1,165 @@
+object Sudoku: TSudoku
+  Left = 145
+  Height = 586
+  Top = 239
+  Width = 754
+  Caption = 'Sudoku'
+  ClientHeight = 586
+  ClientWidth = 754
+  OnCreate = FormCreate
+  LCLVersion = '1.2.6.0'
+  object SUDOKU: TLabel
+    Left = 344
+    Height = 15
+    Top = 32
+    Width = 46
+    Caption = 'SUDOKU'
+    ParentColor = False
+  end
+  object PageControl1: TPageControl
+    Left = 48
+    Height = 456
+    Top = 88
+    Width = 680
+    ActivePage = TabSheet4
+    TabIndex = 3
+    TabOrder = 0
+    OnChange = PageControl1Change
+    object TabSheet3: TTabSheet
+      Caption = 'Generate'
+      ClientHeight = 418
+      ClientWidth = 672
+      object Generate: TButton
+        Left = 272
+        Height = 37
+        Top = 344
+        Width = 99
+        Caption = 'Generate'
+        OnClick = GenerateClick
+        TabOrder = 0
+      end
+      object populasitext: TEdit
+        Left = 239
+        Height = 33
+        Hint = 'populasi'
+        Top = 141
+        Width = 174
+        OnChange = populasitextChange
+        TabOrder = 1
+        Text = '1'
+      end
+      object mutasitext: TEdit
+        Left = 240
+        Height = 33
+        Hint = 'mutasi'
+        Top = 194
+        Width = 173
+        TabOrder = 2
+        Text = '1'
+      end
+      object Label1: TLabel
+        Left = 136
+        Height = 25
+        Top = 142
+        Width = 76
+        Caption = 'Populasi :'
+        ParentColor = False
+        OnClick = Label1Click
+      end
+      object Label2: TLabel
+        Left = 136
+        Height = 25
+        Top = 202
+        Width = 67
+        Caption = 'Mutasi : '
+        ParentColor = False
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Board'
+      ClientHeight = 418
+      ClientWidth = 672
+      object boardmemo: TMemo
+        Left = 112
+        Height = 240
+        Top = 72
+        Width = 304
+        Lines.Strings = (
+          'Memo2'
+        )
+        OnChange = boardmemoChange
+        ScrollBars = ssVertical
+        TabOrder = 0
+      end
+      object Board: TLabel
+        Left = 136
+        Height = 25
+        Top = 16
+        Width = 47
+        Caption = 'Board'
+        ParentColor = False
+      end
+    end
+    object F: TTabSheet
+      Caption = 'Fitness'
+      ClientHeight = 418
+      ClientWidth = 672
+      object Memo1: TMemo
+        Left = 16
+        Height = 240
+        Top = 40
+        Width = 344
+        Lines.Strings = (
+          'Memo1'
+        )
+        OnChange = Memo1Change
+        ScrollBars = ssVertical
+        TabOrder = 0
+      end
+      object Fitness: TLabel
+        Left = 24
+        Height = 25
+        Top = 8
+        Width = 54
+        Caption = 'Fitness'
+        ParentColor = False
+        OnClick = FitnessClick
+      end
+      object runfitness: TButton
+        Left = 376
+        Height = 37
+        Top = 56
+        Width = 112
+        Caption = 'RUN'
+        OnClick = runfitnessClick
+        TabOrder = 1
+      end
+      object Clear: TButton
+        Left = 376
+        Height = 36
+        Top = 120
+        Width = 107
+        Caption = 'Clear'
+        OnClick = ClearClick
+        TabOrder = 2
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = 'Sudoku'
+      ClientHeight = 428
+      ClientWidth = 672
+      object sudokuhasil: TMemo
+        Left = 32
+        Height = 256
+        Top = 64
+        Width = 459
+        Lines.Strings = (
+          'sudokuhasil'
+        )
+        OnChange = sudokuhasilChange
+        ScrollBars = ssVertical
+        TabOrder = 0
+      end
+    end
+  end
+end
