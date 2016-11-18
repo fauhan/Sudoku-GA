@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="SudokuGUI.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="SudokuGUI"/>
+        <UsageCount Value="46"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="sudokuguipass.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Sudoku"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="sudokuguipass"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="99"/>
+        <CursorPos X="68" Y="110"/>
+        <UsageCount Value="46"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="sudokuguipass.lfm"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="1"/>
+        <TopLine Value="34"/>
+        <CursorPos X="22" Y="56"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit2>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="29" HistoryIndex="28">
+      <Position1>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="452" Column="34" TopLine="440"/>
+      </Position1>
+      <Position2>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="457" Column="8" TopLine="433"/>
+      </Position2>
+      <Position3>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="472" Column="43" TopLine="448"/>
+      </Position3>
+      <Position4>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="466" Column="48" TopLine="449"/>
+      </Position4>
+      <Position5>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="467" Column="40" TopLine="455"/>
+      </Position5>
+      <Position6>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="145" Column="24" TopLine="135"/>
+      </Position6>
+      <Position7>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="447" Column="16" TopLine="57"/>
+      </Position7>
+      <Position8>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="467" Column="15" TopLine="446"/>
+      </Position8>
+      <Position9>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="462" Column="24" TopLine="452"/>
+      </Position9>
+      <Position10>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="463" Column="30" TopLine="451"/>
+      </Position10>
+      <Position11>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="466" Column="57" TopLine="445"/>
+      </Position11>
+      <Position12>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="463" Column="39" TopLine="451"/>
+      </Position12>
+      <Position13>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="105" Column="6" TopLine="93"/>
+      </Position13>
+      <Position14>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="462" Column="40" TopLine="447"/>
+      </Position14>
+      <Position15>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="463" Column="39" TopLine="451"/>
+      </Position15>
+      <Position16>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="146" Column="43" TopLine="128"/>
+      </Position16>
+      <Position17>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="444" Column="7" TopLine="434"/>
+      </Position17>
+      <Position18>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="146" Column="33" TopLine="131"/>
+      </Position18>
+      <Position19>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="709" Column="1" TopLine="684"/>
+      </Position19>
+      <Position20>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="145" Column="24" TopLine="134"/>
+      </Position20>
+      <Position21>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="146" Column="33" TopLine="134"/>
+      </Position21>
+      <Position22>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="441" Column="33" TopLine="416"/>
+      </Position22>
+      <Position23>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="147" Column="26" TopLine="134"/>
+      </Position23>
+      <Position24>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="69" Column="11" TopLine="59"/>
+      </Position24>
+      <Position25>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="623" Column="52" TopLine="618"/>
+      </Position25>
+      <Position26>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="123" Column="42" TopLine="101"/>
+      </Position26>
+      <Position27>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="122" Column="42" TopLine="100"/>
+      </Position27>
+      <Position28>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="621" Column="24" TopLine="530"/>
+      </Position28>
+      <Position29>
+        <Filename Value="sudokuguipass.pas"/>
+        <Caret Line="624" Column="24" TopLine="591"/>
+      </Position29>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>
